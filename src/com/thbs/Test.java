@@ -8,7 +8,7 @@ public class Test {
 		m(10);
 		print("rama");
 
-		println(1);
+		println(1,"");
 		
 		
 		dontPrint();
@@ -20,7 +20,7 @@ public class Test {
 		
 	}
 
-	private static void println(int i) {
+	private static void println(int i,String s) {
 		System.out.println(i);
 		
 	}
