@@ -8,11 +8,19 @@ public class Test {
 		m(10);
 		print("rama");
 
-		println(1);
+		println(1,"");
+		
+		
+		dontPrint();
 
 	}
 
-	private static void println(int i) {
+	private static void dontPrint() {
+		//not printing...
+		
+	}
+
+	private static void println(int i,String s) {
 		System.out.println(i);
 		
 	}
