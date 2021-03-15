@@ -7,7 +7,13 @@ public class Test {
 		System.out.println("welcome to Git");
 		m(10);
 		print("rama");
+		println("rama",10);
 
+	}
+
+	private static void println(String string, int i) {
+		System.out.println(string+""+i);
+		
 	}
 
 	private static void print(String string) {
