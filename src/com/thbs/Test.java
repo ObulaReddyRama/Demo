@@ -9,7 +9,15 @@ public class Test {
 		print("rama");
 
 		println(1);
+		
+		
+		dontPrint();
 
+	}
+
+	private static void dontPrint() {
+		//not printing...
+		
 	}
 
 	private static void println(int i) {
