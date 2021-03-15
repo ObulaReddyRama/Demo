@@ -6,7 +6,7 @@ public class Test {
 
 		System.out.println("welcome to Git");
 		m(10);
-		print("rama");
+		print("rama","");
 
 		println(1);
 
@@ -17,7 +17,7 @@ public class Test {
 		
 	}
 
-	private static void print(String string) {
+	private static void print(String string,String ss) {
 		System.out.println(string);
 	}
 
